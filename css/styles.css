@@ -36,13 +36,13 @@ header img {
 
 .cta-light {
   background-color: #fff;
-  color: #57BB6B;
 }
 
 .cta {
   padding: 10px 15px;
   margin: 5px 0;
   border-radius: 13px;
+  font-size: 20px;
 }
 
 .box-title {
@@ -58,7 +58,19 @@ header img {
 
 h2 {
   text-align: center;
-  margin-top: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.section-produits h2 {
+  color: #FFF8F8;
+}
+
+.cta-light,
+header p,
+footer h2,
+footer p {
+  color: #57BB6B;
 }
 
 .section-intro span {
@@ -84,6 +96,11 @@ h2 {
   text-align: left;
   background-color: #57BB6B;
   padding: 30px 35px;
+
+.section-produits a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
 }
 
 .onglet {
@@ -115,10 +132,13 @@ h2 {
 
 h3 {
   margin: 5px 0;
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
 }
 
 .section-produits p {
-  margin: 0 0 30px 
+  font-size: 15px;
+  opacity: 0.5;
 }
 
 footer {
@@ -128,4 +148,19 @@ footer {
 footer p {
   margin: 12px 16px;
   font-size: 12px;
+}
+
+header p,
+main p {
+  font-family: 'Quattrocento', serif;
+}
+
+header p {
+  font-size: 20px;
+}
+
+a,
+h2,
+footer p {
+  font-family: 'Maven Pro', sans-serif;
 }
